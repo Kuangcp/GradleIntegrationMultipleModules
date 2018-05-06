@@ -1,3 +1,9 @@
+# Gradle构建多模块项目
+> [博客地址](https://blog.csdn.net/kcp606/article/details/72934517)
+
+- 使用一致的方式设计的更干净和规范的项目
+    - https://github.com/Kuangcp/JavaBase
+
 ### 步骤
 -   新建一个gradle 空Module(不勾选java或者其他类型)，这就是整个大项目
 -   选中刚新建的Module 然后新建Module 只选java 就是se核心复用部分
@@ -8,7 +14,7 @@
 - 修改gradle构建文件： 
 
 ###  整个项目的`build.gradle 文件`：
-```
+```groovy
 allprojects {
     apply plugin: 'java'
     group 'com.github.kuangcp'
