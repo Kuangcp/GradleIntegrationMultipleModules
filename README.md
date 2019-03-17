@@ -1,8 +1,7 @@
 # Gradle构建多模块项目
 > [博客地址](https://blog.csdn.net/kcp606/article/details/72934517)
 
-- 使用一致的方式设计的更干净和规范的项目
-    - https://github.com/Kuangcp/JavaBase
+- 使用一致的方式设计的更干净和规范的项目: https://github.com/Kuangcp/JavaBase
 
 ### 步骤
 -   新建一个gradle 空Module(不勾选java或者其他类型)，这就是整个大项目
